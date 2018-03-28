@@ -14,14 +14,35 @@ header{
     justify-content: center;
 }
 #logo{
-    
-
+    padding: 15px;
+}
+#logo img{
+    width: 250px;
 }
 form{
+    margin-top: 15px;
     position: absolute;
-    margin-left: 300px;
+    margin-left: 350px;
+}
+form input{
+    width: 300px;
+    border-radius: 20px 0 0 20px;
+    height: 45px;
+    border: none;
+    outline: none;
+}
+form input::placeholder{
+    padding-left: 15px;
+}
+form button{
+    border-radius: 0 20px 20px 0;
+    padding: 15px;
+    border: none;
+    margin-left: -4;
+    background-color: #fff;
 }
 #menu{
+    padding: 15px;
     background: #fff;
 }
 #menu ul{
@@ -30,10 +51,15 @@ form{
     flex-wrap: nowrap;
     justify-content: center;
 }
+#menu ul li{
+    color: #a3bcde;
+    margin: 7px;
+    border: 0px solid yellowgreen;
+}
 section{
-    border: 3px solid yellowgreen;
+    border: 0px solid yellowgreen;
     margin: 0 auto;
-    width: 70%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -41,8 +67,11 @@ section{
     align-items: center;
 
 }
+section h3{
+    color: #a3bcde
+}
 #artigo-g{
-    border: 3px solid red;
+    border: 0px solid red;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -56,7 +85,7 @@ section{
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 7px;
+    margin: 15px;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
