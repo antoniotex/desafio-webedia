@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#logo{
+    
+
+}
+form{
+    position: absolute;
+    margin-left: 300px;
+}
+#menu{
+    background: #ccc;
+}
+#menu ul{
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#artigo-g img{
+    width: 30%;
+}
