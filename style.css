@@ -3,6 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     background: #ddd;
@@ -15,6 +16,7 @@ header{
     align-items: center;
 }
 #logo{
+    border: 3px solid grey;
     padding: 15px;
 }
 #logo img{
@@ -38,7 +40,7 @@ form input{
     border: none;
     outline: none;
 }
-form button{
+form span{
     border-radius: 0 20px 20px 0;
     border: none;
     padding: 10px;
@@ -74,7 +76,10 @@ section{
 
 }
 section h3{
-    color: #a3bcde
+    color: #a3bcde;
+}
+section h4{
+    color: #bbb;
 }
 #artigo-g{
     border: 0px solid red;
