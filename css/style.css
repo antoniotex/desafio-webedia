@@ -52,7 +52,6 @@ form span{
     cursor: pointer;
 }
 #menu{
-    padding: 15px;
     background: #fff;
 }
 #menu ul{
@@ -63,7 +62,7 @@ form span{
 }
 #menu ul li{
     color: #a3bcde;
-    margin: 7px;
+    margin: 15px;
     border: 0px solid yellowgreen;
 }
 section{
@@ -106,8 +105,7 @@ section h4{
 }
 .card-g img{
     width: 100%;
-    /*border-radius: 10px 10px 0 0;*/
-    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
 }
 #container-img{
     width: 100%;

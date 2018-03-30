@@ -1,5 +1,5 @@
 var url = 'https://newsapi.org/v2/top-headlines?' +
-          'sources=globo&' +
+          'sources=the-new-york-times&' +
           'apiKey=0374b95ead8b4547b4180d4b531d9026';
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
@@ -14,15 +14,15 @@ xhttp.onreadystatechange = function() {
        for(var i = 0; i < 20; i++){
         if( cont < 2){
             linha1 += 
-            '<div class="card-g">'+
+            '<div class="card-g"><a href="'+ newsapi.articles[i].url +'" target="_blank">'+
                 '<div id="container-img">'+
                     '<img src="' +newsapi.articles[i].urlToImage+ '" alt="">'+
                 '</div>'+
                 '<p>' +newsapi.articles[i].publishedAt+'</p>'+
-                '<h3><a href="'+ newsapi.articles[i].url +'" target="_blank">' +newsapi.articles[i].title+ '<a></h3>'+
+                '<h3>' +newsapi.articles[i].title+ '</h3>'+
                 '<p>' +newsapi.articles[i].description+ '</p>'+
                 '<p>POR : ' +newsapi.articles[i].author+ '</p>'+
-            '</div><br/>';
+            '<a></div><br/>';
             cont++;
             }else if(cont < 5){
                 linha2 +=
