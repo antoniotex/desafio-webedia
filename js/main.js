@@ -1,5 +1,5 @@
 var url = 'https://newsapi.org/v2/top-headlines?' +
-          'sources=the-new-york-times&' +
+          'sources=globo&' +
           'apiKey=0374b95ead8b4547b4180d4b531d9026';
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
@@ -18,15 +18,15 @@ xhttp.onreadystatechange = function() {
                 '<div id="container-img">'+
                     '<img src="' +newsapi.articles[i].urlToImage+ '" alt="">'+
                 '</div>'+
-                '<p>' +newsapi.articles[i].publishedAt+'</p>'+
+                '<p>'+newsapi.articles[i].publishedAt+'</p>'+
                 '<h3>' +newsapi.articles[i].title+ '</h3>'+
                 '<p>' +newsapi.articles[i].description+ '</p>'+
                 '<p>POR : ' +newsapi.articles[i].author+ '</p>'+
-            '<a></div><br/>';
+            '<a></div>';
             cont++;
             }else if(cont < 5){
                 linha2 +=
-                '<div class="card-g">'+
+                '<div class="card-p">'+
                 '<div id="container-img">'+
                     '<img src="' +newsapi.articles[i].urlToImage+ '" alt="">'+
                 '</div>'+
@@ -34,7 +34,7 @@ xhttp.onreadystatechange = function() {
                 '<h3><a href="'+ newsapi.articles[i].url +'" target="_blank">' +newsapi.articles[i].title+ '<a></h3>'+
                 '<p>' +newsapi.articles[i].description+ '</p>'+
                 '<p>POR : ' +newsapi.articles[i].author+ '</p>'+
-            '</div><br/>';
+            '</div>';
             cont++;
             }else if(cont < 7){
                 linha3 +=
@@ -46,7 +46,7 @@ xhttp.onreadystatechange = function() {
                 '<h3><a href="'+ newsapi.articles[i].url +'" target="_blank">' +newsapi.articles[i].title+ '<a></h3>'+
                 '<p>' +newsapi.articles[i].description+ '</p>'+
                 '<p>POR : ' +newsapi.articles[i].author+ '</p>'+
-            '</div><br/>';
+            '</div>';
             cont++;
             }
                 document.getElementById("linha1").innerHTML = linha1;

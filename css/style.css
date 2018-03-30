@@ -1,6 +1,6 @@
 *{
-    /*margin: 0;
-    padding: 0;*/
+    margin: 0;
+    padding: 0;
     list-style: none;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -53,6 +53,7 @@ form span{
 }
 #menu{
     background: #fff;
+    margin-bottom: 20px;
 }
 #menu ul{
     display: flex;
@@ -91,7 +92,7 @@ section h4{
     justify-content: center;
     align-items: stretch;
 }
-.card-g{
+.card-g, .card-p{
     border: 0px solid green;
     background: #fff;
     width: 100%;
@@ -107,14 +108,18 @@ section h4{
     width: 100%;
     border-radius: 10px 10px 0 0;
 }
+.card-p img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
 #container-img{
     width: 100%;
     border-radius: 10px 10px 0 0;
     background: #333;
 }
 .card-g p, h3{
+    text-align: center;
     margin: 10px 20px;
-    border: 1px solid red;
 }
 footer{
     background: #fff;
@@ -123,5 +128,4 @@ footer{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    padding: 20px;
 }
