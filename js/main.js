@@ -1,5 +1,5 @@
 var url = 'https://newsapi.org/v2/top-headlines?' +
-          'sources=mtv-news&' +
+          'sources=globo&' +
           'apiKey=0374b95ead8b4547b4180d4b531d9026';
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
