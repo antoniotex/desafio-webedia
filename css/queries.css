@@ -1,27 +1,72 @@
 @media screen and (max-width: 449px) {
+    form input{
+        display: none;
+    }
+    #menu{
+        display: none;
+    }
     #linha1, #linha2, #linha3{
         flex-direction: column;
     }
+    #botao-menu{
+        display: block;
+    }
 }
 @media screen and (min-width: 450px) {
+    form input{
+        display: none;
+    }
+    #menu{
+        display: none;
+    }
     #linha1, #linha2, #linha3{
         flex-direction: column;
+    }
+    #botao-menu{
+        display: block;
     }
 }
 
 @media screen and (min-width: 768px) {
+    form input{
+        display: none;
+    }
+    #menu{
+        display: none;
+    }
     #linha1, #linha2, #linha3{
         flex-direction: column;
+    }
+    #botao-menu{
+        display: block;
     }
 }
 
 @media screen and (min-width: 992px) {
+    form input{
+        display: block;
+    }
+    #menu{
+        display: flex;
+    }
     #linha1, #linha2, #linha3{
         flex-direction: row;
+    }
+    #botao-menu{
+        display: none;
     }
 }
 
 @media screen and (min-width: 1200px) {
+    form input{
+        display: block;
+    }
+    #botao-menu{
+        display: none;
+    }
+    #menu{
+        display: flex;
+    }
     #linha1, #linha2, #linha3{
         flex-direction: row;
     }

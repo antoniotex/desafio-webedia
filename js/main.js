@@ -1,11 +1,7 @@
-var url = 'https://newsapi.org/v2/top-headlines?' +
-          'sources=globo&' +
-          'apiKey=0374b95ead8b4547b4180d4b531d9026';
+var url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=0374b95ead8b4547b4180d4b531d9026';
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-       // Typical action to be performed when the document is ready:
-       //document.getElementById("").innerHTML = xhttp.responseText;
        var newsapi = JSON.parse(xhttp.responseText);
        var linha1 = '';
        var linha2 = '';
@@ -47,7 +43,8 @@ xhttp.onreadystatechange = function() {
                 '<p>' +newsapi.articles[i].description+ '</p>'+
                 '<p>POR : ' +newsapi.articles[i].author+ '</p>'+
             '</div>';
-            cont++;
+            }else{
+                cont = 0;
             }
                 document.getElementById("linha1").innerHTML = linha1;
                 document.getElementById("linha2").innerHTML = linha2;
