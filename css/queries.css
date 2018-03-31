@@ -15,9 +15,9 @@
         font-size: 40px;
     }
     #menu{
-        position: absolute;
+        position: fixed;
         display: none;
-        margin-top: -80px;
+        margin-top: -76px;
         width: 100%;   
         height: 100%;
         justify-content: flex-start;
@@ -67,9 +67,9 @@
         font-size: 40px;
     }
     #menu{
-        position: absolute;
+        position: fixed;
         display: none;
-        margin-top: -80px;
+        margin-top: -76px;
         width: 100%;     
         height: 100%;
         justify-content: flex-start;
@@ -120,7 +120,7 @@
         font-size: 40px;
     }
     #menu{
-        position: absolute;
+        position: fixed;
         display: none;
         margin-top: -76px;
         width: 100%;    

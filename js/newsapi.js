@@ -1,4 +1,4 @@
-var url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=0374b95ead8b4547b4180d4b531d9026';
+var url = 'https://newsapi.org/v2/top-headlines?country=br&apiKey=0374b95ead8b4547b4180d4b531d9026';
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {

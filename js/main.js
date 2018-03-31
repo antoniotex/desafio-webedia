@@ -1,11 +1,14 @@
-var $menu = document.getElementById('botao-menu');
+var $abrirmenu = document.getElementById('botao-menu');
+var $fecharmenu = document.getElementById('fechar-menu');
+var $abrirpesquisa = document.getElementById('botao-pesquisa');
+var $fecharpesquisa = document.getElementById('fechar-pesquisa');
 
 
 
-$menu.addEventListener('click', function(){
+$abrirmenu.addEventListener('click', function(){
     document.getElementById('menu').style.display = 'flex'
 });
 
-document.getElementById('fechar-menu').addEventListener('click', function(){
+$fecharmenu.addEventListener('click', function(){
     document.getElementById('menu').style.display = 'none'
 });
