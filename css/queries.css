@@ -1,6 +1,18 @@
 @media screen and (max-width: 449px) {
+    header{
+        width: 95%;
+        justify-content: space-between;
+    }
+    form{
+        box-shadow: 0px 0px 0px;
+    }
     form input{
         display: none;
+    }
+    #botao-pesquisa{
+        padding: 0;
+        background-color: transparent;
+        font-size: 40px;
     }
     #menu{
         display: none;
@@ -10,11 +22,29 @@
     }
     #botao-menu{
         display: block;
+    }
+    section{
+        width: 95%;
+    }
+    .card-g, .card-p{
+        margin: 15px 0;
     }
 }
 @media screen and (min-width: 450px) {
+    header{
+        width: 95%;
+        justify-content: space-between;
+    }
+    form{
+        box-shadow: 0px 0px 0px;
+    }
     form input{
         display: none;
+    }
+    #botao-pesquisa{
+        padding: 0;
+        background-color: transparent;
+        font-size: 40px;
     }
     #menu{
         display: none;
@@ -24,15 +54,36 @@
     }
     #botao-menu{
         display: block;
+    }
+    section{
+        width: 95%;
+    }
+    .card-g, .card-p{
+        margin: 15px 0;
     }
 }
 
 @media screen and (min-width: 768px) {
+    header{
+        width: 95%;
+        justify-content: space-between;
+    }
+    form{
+        box-shadow: 0px 0px 0px;
+    }
     form input{
         display: none;
     }
+    #botao-pesquisa{
+        padding: 0;
+        background-color: transparent;
+        font-size: 40px;
+    }
     #menu{
         display: none;
+    }
+    section{
+        width: 95%;
     }
     #linha1, #linha2, #linha3{
         flex-direction: column;
@@ -40,26 +91,59 @@
     #botao-menu{
         display: block;
     }
+    .card-g, .card-p{
+        margin: 15px 0;
+    }
 }
 
 @media screen and (min-width: 992px) {
+    header{
+        width: 80%;
+        justify-content: flex-end;
+    }
+    form{
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    }
     form input{
         display: block;
     }
+    #botao-pesquisa{
+        padding: 10px;
+        background-color: #fff;
+        font-size: 25px;
+    }
     #menu{
         display: flex;
+    }
+    section{
+        width: 80%;
     }
     #linha1, #linha2, #linha3{
         flex-direction: row;
     }
     #botao-menu{
         display: none;
+    }
+    .card-g, .card-p{
+        margin: 15px;
     }
 }
 
 @media screen and (min-width: 1200px) {
+    header{
+        width: 80%;
+        justify-content: flex-end;
+    }
+    form{
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    }
     form input{
         display: block;
+    }
+    #botao-pesquisa{
+        padding: 10px;
+        background-color: #fff;
+        font-size: 25px;
     }
     #botao-menu{
         display: none;
@@ -67,7 +151,13 @@
     #menu{
         display: flex;
     }
+    section{
+        width: 80%;
+    }
     #linha1, #linha2, #linha3{
         flex-direction: row;
+    }
+    .card-g, .card-p{
+        margin: 15px;
     }
 }

@@ -7,7 +7,7 @@ xhttp.onreadystatechange = function() {
        var linha2 = '';
        var linha3 = '';
        var cont = 0;
-       for(var i = 0; i < 20; i++){
+       for(var i = 0; i < 7; i++){
         if( cont < 2){
             linha1 += 
             '<div class="card-g"><a href="'+ newsapi.articles[i].url +'" target="_blank">'+
