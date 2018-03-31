@@ -24,7 +24,6 @@ header{
 #botao-menu{
     display: block;
     text-align: center;
-    border: 1px solid yellowgreen;
     width: 10%;
     font-size: 40px;
     cursor: pointer;
@@ -68,7 +67,6 @@ form input{
 #menu{
     display: flex;
     justify-content: flex-start;
-    background: #fff;
     margin-bottom: 20px;
 }
 #menu ul{
@@ -76,11 +74,33 @@ form input{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
+    background: #fff;
 }
 #menu ul li{
     color: #a3bcde;
     margin: 10px;
     font-size: 15px;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.6);
+    widows: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+}
+#fechar-menu{
+    display: block;
+    text-align: center;
+    width: 45px;
+    height: 40px;
+    padding: 10px;
+    background-color: #eee;
+    font-size: 40px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 section{
     margin: 0 auto;
@@ -98,7 +118,6 @@ section h4{
     color: #bbb;
 }
 #linha1, #linha2, #linha3{
-    border: 0px solid red;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -107,7 +126,6 @@ section h4{
     align-items: stretch;
 }
 .card-g, .card-p{
-    border: 0px solid green;
     background: #fff;
     width: 100%;
     display: flex;

@@ -18,17 +18,18 @@
         position: absolute;
         display: none;
         margin-top: -80px;
-        width: 80%;    
+        width: 100%;   
         height: 100%;
         justify-content: flex-start;
         align-items: flex-start;
     }
     #menu ul{
         width: 100%;
-        border:3px solid yellow;
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         align-items: stretch;
+        height: 100%;
     }
     #menu ul li{
         color: #a3bcde;
@@ -69,17 +70,18 @@
         position: absolute;
         display: none;
         margin-top: -80px;
-        width: 80%;    
+        width: 100%;     
         height: 100%;
         justify-content: flex-start;
         align-items: flex-start;
     }
     #menu ul{
         width: 100%;
-        border:3px solid yellow;
         display: flex;
         flex-direction: column;
         align-items: stretch;
+        justify-content: flex-start;
+        height: 100%;
     }
     #menu ul li{
         color: #a3bcde;
@@ -120,18 +122,20 @@
     #menu{
         position: absolute;
         display: none;
-        margin-top: -80px;
-        width: 80%;    
+        margin-top: -76px;
+        width: 100%;    
         height: 100%;
         justify-content: flex-start;
         align-items: flex-start;
     }
     #menu ul{
         width: 100%;
-        border:3px solid yellow;
         display: flex;
         flex-direction: column;
         align-items: stretch;
+        justify-content: flex-start;
+        height: 100%;
+        
     }
     #menu ul li{
         color: #a3bcde;
@@ -150,6 +154,9 @@
     }
     .card-g, .card-p{
         margin: 15px 0;
+    }
+    #fechar-menu{
+        display: block;
     }
 }
 
@@ -184,6 +191,8 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
+        height: 100%;
+        
     }
     #menu ul li{
         color: #a3bcde;
@@ -202,6 +211,9 @@
     }
     .card-g, .card-p{
         margin: 15px;
+    }
+    #fechar-menu{
+        display: none;
     }
 }
 
@@ -239,6 +251,7 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
+        height: 100%;
     }
     #menu ul li{
         color: #a3bcde;
@@ -254,5 +267,8 @@
     }
     .card-g, .card-p{
         margin: 15px;
+    }
+    #fechar-menu{
+        display: none;
     }
 }
